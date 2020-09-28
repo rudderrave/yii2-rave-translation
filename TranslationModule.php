@@ -5,7 +5,7 @@
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
 
-namespace yeesoft\translation;
+namespace ravesoft\translation;
 
 /**
  * Translation Module For Yee CMS
@@ -22,6 +22,6 @@ class TranslationModule extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'yeesoft\translation\controllers';
+    public $controllerNamespace = 'ravesoft\translation\controllers';
 
 }

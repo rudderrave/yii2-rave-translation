@@ -1,6 +1,6 @@
 <?php
 
-use yeesoft\db\PermissionsMigration;
+use ravesoft\db\PermissionsMigration;
 
 class m151121_131210_add_translation_permissions extends PermissionsMigration
 {

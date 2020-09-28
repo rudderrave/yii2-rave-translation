@@ -1,14 +1,14 @@
 <?php
 
-use yeesoft\helpers\Html;
-use yeesoft\translation\models\MessageSource;
+use ravesoft\helpers\Html;
+use ravesoft\translation\models\MessageSource;
 use yii\helpers\ArrayHelper;
 use yii\web\View;
-use yeesoft\widgets\ActiveForm;
+use ravesoft\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model yeesoft\translation\models\MessageSource */
-/* @var $form yeesoft\widgets\ActiveForm */
+/* @var $model ravesoft\translation\models\MessageSource */
+/* @var $form ravesoft\widgets\ActiveForm */
 ?>
 
     <div class="message-source-form">

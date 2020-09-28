@@ -1,6 +1,6 @@
 <?php
 
-namespace yeesoft\translation\models;
+namespace ravesoft\translation\models;
 
 use Yii;
 use yii\db\Query;
@@ -15,7 +15,7 @@ use yii\db\Query;
  *
  * @property Message[] $messages
  */
-class MessageSource extends \yeesoft\db\ActiveRecord
+class MessageSource extends \ravesoft\db\ActiveRecord
 {
 
     /**

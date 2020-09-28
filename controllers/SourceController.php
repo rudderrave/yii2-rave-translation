@@ -1,18 +1,18 @@
 <?php
 
-namespace yeesoft\translation\controllers;
+namespace ravesoft\translation\controllers;
 
-use yeesoft\controllers\admin\BaseController;
-use yeesoft\models\User;
+use ravesoft\controllers\admin\BaseController;
+use ravesoft\models\User;
 use Yii;
 use yii\web\ForbiddenHttpException;
 
 /**
- * SourceController implements the CRUD actions for yeesoft\translation\models\MessageSource model.
+ * SourceController implements the CRUD actions for ravesoft\translation\models\MessageSource model.
  */
 class SourceController extends BaseController
 {
-    public $modelClass = 'yeesoft\translation\models\MessageSource';
+    public $modelClass = 'ravesoft\translation\models\MessageSource';
     public $enableOnlyActions = ['update', 'create', 'delete'];
 
     protected function getRedirectPage($action, $model = null)

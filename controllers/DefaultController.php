@@ -1,20 +1,20 @@
 <?php
 
-namespace yeesoft\translation\controllers;
+namespace ravesoft\translation\controllers;
 
-use yeesoft\controllers\admin\BaseController;
-use yeesoft\models\User;
-use yeesoft\translation\models\Message;
-use yeesoft\translation\models\MessageSource;
+use ravesoft\controllers\admin\BaseController;
+use ravesoft\models\User;
+use ravesoft\translation\models\Message;
+use ravesoft\translation\models\MessageSource;
 use Yii;
 use yii\base\Model;
 
 /**
- * MessageController implements the CRUD actions for yeesoft\translation\models\Message model.
+ * MessageController implements the CRUD actions for ravesoft\translation\models\Message model.
  */
 class DefaultController extends BaseController
 {
-    public $modelClass = 'yeesoft\translation\models\Message';
+    public $modelClass = 'ravesoft\translation\models\Message';
     public $enableOnlyActions = ['index'];
 
     /**

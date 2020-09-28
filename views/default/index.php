@@ -1,10 +1,10 @@
 <?php
 
-use yeesoft\helpers\Html;
-use yeesoft\models\User;
-use yeesoft\widgets\ActiveForm;
+use ravesoft\helpers\Html;
+use ravesoft\models\User;
+use ravesoft\widgets\ActiveForm;
 
-/* @var $this yeesoft\web\View */
+/* @var $this ravesoft\web\View */
 
 $this->title = Yii::t('yee/translation', 'Message Translation');
 $this->params['breadcrumbs'][] = $this->title;

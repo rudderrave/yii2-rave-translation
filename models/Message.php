@@ -1,6 +1,6 @@
 <?php
 
-namespace yeesoft\translation\models;
+namespace ravesoft\translation\models;
 
 use Yii;
 
@@ -14,7 +14,7 @@ use Yii;
  *
  * @property MessageSource $id0
  */
-class Message extends \yeesoft\db\ActiveRecord
+class Message extends \ravesoft\db\ActiveRecord
 {
     /**
      * @inheritdoc
