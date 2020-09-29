@@ -45,10 +45,10 @@ class MessageSource extends \ravesoft\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('yee', 'ID'),
-            'category' => Yii::t('yee/translation', 'Category'),
-            'message' => Yii::t('yee/translation', 'Source Message'),
-            'immutable' => Yii::t('yee/translation', 'Immutable'),
+            'id' => Yii::t('rave', 'ID'),
+            'category' => Yii::t('rave/translation', 'Category'),
+            'message' => Yii::t('rave/translation', 'Source Message'),
+            'immutable' => Yii::t('rave/translation', 'Immutable'),
         ];
     }
 

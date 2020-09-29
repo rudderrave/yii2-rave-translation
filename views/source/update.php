@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model ravesoft\translation\models\MessageSource */
 
-$this->title = Yii::t('yee/translation', 'Update Message Source');
-$this->params['breadcrumbs'][] = ['label' => Yii::t('yee/translation', 'Message Translation'), 'url' => ['/translation/default/index']];
+$this->title = Yii::t('rave/translation', 'Update Message Source');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('rave/translation', 'Message Translation'), 'url' => ['/translation/default/index']];
 $this->params['breadcrumbs'][] = 'Update Message Source';
 ?>
 <div class="message-source-update">

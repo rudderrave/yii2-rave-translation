@@ -6,7 +6,7 @@ use ravesoft\widgets\ActiveForm;
 
 /* @var $this ravesoft\web\View */
 
-$this->title = Yii::t('yee/translation', 'Message Translation');
+$this->title = Yii::t('rave/translation', 'Message Translation');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
     <div class="message-index">
@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="row">
             <div class="col-sm-12">
                 <h3 class="lte-hide-title page-title"><?= Html::encode($this->title) ?></h3>
-                <?= Html::a(Yii::t('yee/translation', 'Add New Source Message'), ['/translation/source/create'], ['class' => 'btn btn-sm btn-primary']) ?>
+                <?= Html::a(Yii::t('rave/translation', 'Add New Source Message'), ['/translation/source/create'], ['class' => 'btn btn-sm btn-primary']) ?>
             </div>
         </div>
 
@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <li>
                                     <h4>
                                         <b>[<?= strtoupper($category) ?>]</b>
-                                        <?= Yii::t('yee/translation', '{n, plural, =1{1 message} other{# messages}}', ['n' => $count]) ?>
+                                        <?= Yii::t('rave/translation', '{n, plural, =1{1 message} other{# messages}}', ['n' => $count]) ?>
                                     </h4>
 
                                     <?php foreach ($languages as $language => $languageLabel) : ?>
@@ -51,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                         <?php if (!$currentLanguage || !$currentCategory): ?>
                             <h4>
-                                <?= Yii::t('yee/translation', 'Please, select message group and language to view translations...') ?>
+                                <?= Yii::t('rave/translation', 'Please, select message group and language to view translations...') ?>
                             </h4>
                         <?php else: ?>
 
@@ -70,7 +70,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <?php endforeach; ?>
 
                             <?php if (User::hasPermission('updateSourceMessages')): ?>
-                                <?= Html::submitButton(Yii::t('yee', 'Save All'), ['class' => 'btn btn-primary']) ?>
+                                <?= Html::submitButton(Yii::t('rave', 'Save All'), ['class' => 'btn btn-primary']) ?>
                             <?php endif; ?>
 
                             <?php ActiveForm::end() ?>

@@ -25,7 +25,7 @@ class DefaultController extends BaseController
     {
         $sourceLanguage = 'en-US';
 
-        $languages = Yii::$app->yee->languages;
+        $languages = Yii::$app->rave->languages;
         $categories = MessageSource::getMessageCategories();
 
         unset($languages[$sourceLanguage]);
